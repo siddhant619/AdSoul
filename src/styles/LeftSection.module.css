@@ -1,0 +1,55 @@
+.root{
+    composes: normalText from "typography.css";
+}
+h3{
+    margin:0;
+    padding: 0;
+}
+.highlighted{
+     background-color: #7164ff;
+     padding:2em;
+}
+.features{
+    background-color:#6155db;
+    padding:3em;
+    border:0px solid black;
+}
+.options{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    border:0px solid white;
+    padding-right: 1em;
+}
+.featuresTitle{
+    color:white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.title{
+    composes: header from "typography.css";
+    margin-bottom: 2em;
+}
+.imageContainer{
+    margin:2em auto;
+    border:0px solid black;
+    text-align: center;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.item{
+    margin-top: 2em;
+}
+.itemName{
+    color:white;
+    margin-top:0;
+}
+@media (max-width:800px){
+    .features{
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+.root{
+    composes: normalText from "typography.css";
+}
+.icon{
+    color:gray;
+    margin-right:2em;
+}
+.icon:hover{
+    color:black;
+    cursor: pointer;
+}
+.navbar{
+    background-color: #7164ff;
+    composes: header from "typography.css";
+    padding:2em;
+    width:100%;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+    
+}
+.cardHeader{
+    display: flex;
+    margin:2em 0;
+}
+.logoTitle{
+    display: flex;
+    align-items: center;
+}
+.tableContainer{
+    overflow-x:auto;
+    
+}
+.table{
+    width:100%;
+    border:1px solid rgb(192, 191, 191);
+    border-collapse: collapse;
+}
+.th{
+    padding:1.2em;
+    border-bottom:0.5px solid rgb(192, 191, 191);
+}
+.td{
+    text-align: center;
+    border-bottom:0.1px solid rgb(230, 227, 227);
+    padding:0.5em;
+}

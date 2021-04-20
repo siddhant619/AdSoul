@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ */
+h2{
+    margin:0;
+    padding:0;
+    
+}
+.card{
+    background-color: white;
+    padding:1em ;
+    border: 0px solid black;
+    composes: normalText from "typography.css";
+    color:#151515;
+    margin-bottom: 1em;
+}
+.card:last-child{
+    margin-bottom: 0em;
+}
+.icon{
+    color:gray;
+}
+.icon:hover{
+    color:black;
+    cursor: pointer;
+}
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.logoTitle{
+    display: flex;
+}
+.logo{
+    background-color: blueviolet;
+    height: 3.5em;
+    width:3.5em;
+    margin-right: 0.7em;
+}
+.publisher{
+    color:#919191;
+    font-size:0.9rem;
+    font-weight: bold;
+}
+.stat{
+    margin-right: 3em;
+}
+.stat:last-child {
+    margin-right: 0;
+  }
+.stats{
+    
+    margin-top:2em;
+    display:flex;
+   /*  flex-wrap: wrap; */
+}
+.statTitle{
+    font-size:0.9rem;
+    font-weight: bold;
+}
+.statNumber{
+    font-size:1.7rem;
+    font-weight: bold;
+}
