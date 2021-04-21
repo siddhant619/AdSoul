@@ -41,16 +41,19 @@ h2{
     font-size:0.9rem;
     font-weight: bold;
 }
+
 .stat{
-    margin-right: 3em;
+    /* margin-right: 2.5em; */
 }
 .stat:last-child {
     margin-right: 0;
   }
 .stats{
-    
+    width: 100%;
+    border: 0px solid black;
     margin-top:2em;
     display:flex;
+    justify-content: space-between;
    /*  flex-wrap: wrap; */
 }
 .statTitle{
@@ -60,4 +63,9 @@ h2{
 .statNumber{
     font-size:1.7rem;
     font-weight: bold;
+}
+@media (max-width:800px){
+    .statNumber{
+        font-size:1.5rem;
+    }
 }

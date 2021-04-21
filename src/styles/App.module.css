@@ -4,13 +4,13 @@
 }
 .leftSection{
     width:50%;
-   /*  background-color: #7164ff; */
+    background-color: #6155db;
     composes: normalText from "typography.css";
 }
 .main{
     width:50%;
     background-color: #f7f7f7;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     overflow-y: auto;
 }
 @media (max-width:800px){
